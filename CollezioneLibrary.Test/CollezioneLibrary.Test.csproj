@@ -53,6 +53,12 @@
     <Compile Include="VettoreTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CollezioneLibrary\CollezioneLibrary.csproj">
+      <Project>{fe743aa8-9732-4426-af11-7f5c190aa950}</Project>
+      <Name>CollezioneLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
